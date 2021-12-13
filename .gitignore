@@ -20,7 +20,7 @@ Sessionx.vim
 
 # Auto-generated tag files
 tags
-autoload
+autoload/*
 
 # Persistent undo
 [._]*.un~
