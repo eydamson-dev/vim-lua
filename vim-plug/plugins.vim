@@ -28,7 +28,8 @@ Plug 'AndrewRadev/ember_tools.vim'
 Plug 'sukima/vim-javascript-imports'
 Plug 'sukima/vim-ember-imports'
 
-Plug 'numtostr/FTerm.nvim'
+Plug 'voldikss/vim-floaterm'
+" Plug 'numtostr/FTerm.nvim'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
@@ -37,9 +38,10 @@ Plug 'hoob3rt/lualine.nvim'
 " If you want to have icons in your statusline choose one of these
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
+Plug 'akinsho/bufferline.nvim'
 " Plug 'preservim/nerdtree'
 
-Plug 'ryanoasis/vim-devicons'
+" Plug 'ryanoasis/vim-devicons'
 
 Plug 'airblade/vim-rooter'
 Plug 'karb94/neoscroll.nvim'

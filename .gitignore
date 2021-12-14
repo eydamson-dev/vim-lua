@@ -20,9 +20,19 @@ Sessionx.vim
 
 # Auto-generated tag files
 tags
-autoload/*
+autoload/
 
 # Persistent undo
 [._]*.un~
 
 # End of https://www.toptal.com/developers/gitignore/api/vim
+
+autoload/plugged/neoscroll.nvim
+autoload/plugged/nvim-compe
+autoload/plugged/vim-javascript-imports
+autoload/plugged/FTerm.nvim
+autoload/plugged/gitsigns.nvim
+autoload/plugged/lualine.nvim
+autoload/plugged/nvim-lspconfig
+autoload/plugged/nvim-treesitter
+autoload/plugged/vim-devicons

@@ -17,7 +17,7 @@ map('n', '<F1>', "<cmd>lua require('_G').__fterm_newTerm()<cr>", {noremap = true
 local lazygit = term:new():setup({
   cmd = "lazygit",
   dimensions = {
-      height = 0.9,
+      height = 0.8,
       width = 0.9
   },
 })
