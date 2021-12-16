@@ -1,5 +1,5 @@
-source $HOME/.config/nvim/general-config.vim
 source $HOME/.config/nvim/vim-plug/plugins.vim
+source $HOME/.config/nvim/general-config.vim
 source $HOME/.config/nvim/mappings.vim
 source $HOME/.config/nvim/vim-rooter.vim
 
@@ -28,5 +28,6 @@ luafile $HOME/.config/nvim/lua/lsp/typescript.lua
 luafile $HOME/.config/nvim/lua/plugins/compe-config.lua
 luafile $HOME/.config/nvim/lua/lsp/html.lua
 luafile $HOME/.config/nvim/lua/lsp/ember-js.lua
+" luafile $HOME/.config/nvim/lua/lsp/intelephense.vim
 
 let g:ember_tools_debug = 1

@@ -52,4 +52,6 @@ Plug 'romainl/vim-cool'
 
 Plug 'editorconfig/editorconfig-vim'
 
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'navarasu/onedark.nvim'
 call plug#end()  

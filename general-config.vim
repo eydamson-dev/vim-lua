@@ -80,7 +80,26 @@ if exists("&termguicolors") && exists("&winblend")
   set pumblend=5
   set background=dark
   " Use NeoSolarized
-  let g:neosolarized_termtrans=1
-  runtime ./colors/NeoSolarized.vim
-  colorscheme NeoSolarized
+  " let g:neosolarized_termtrans=1
+  " runtime ./colors/NeoSolarized.vim
+  let g:onedark_transparent_background = v:true
+  
+  let g:tokyonight_style = "night"
+  let g:tokyonight_italic_functions = 1
+  let g:tokyonight_sidebars = [ "qf", "vista_kind", "terminal", "packer" ]
+  let g:tokyonight_transparent = v:true
+  let g:tokyonight_transparent_sidebar = v:true
+
+  " Change the "hint" color to the "orange" color, and make the "error" color bright red
+  let g:tokyonight_colors = {
+    \ 'hint': 'orange',
+    \ 'error': '#ff0000'
+  \ }
+
+  " Load the colorscheme
+  colorscheme tokyonight
 endif
+
+":lua << EOF
+" require('onedark').setup()
+" vim.cmd[[colorscheme tokyonight]]
