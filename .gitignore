@@ -36,3 +36,8 @@ autoload/plugged/lualine.nvim
 autoload/plugged/nvim-lspconfig
 autoload/plugged/nvim-treesitter
 autoload/plugged/vim-devicons
+autoload/plugged/nvim-tree.lua
+autoload/plugged/nvim-web-devicons
+autoload/plugged/plenary.nvim
+vim-plug/plugins.vim
+vim-plug/plugins.vim
