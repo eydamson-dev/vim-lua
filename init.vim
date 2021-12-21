@@ -2,6 +2,7 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general-config.vim
 source $HOME/.config/nvim/mappings.vim
 source $HOME/.config/nvim/vim-rooter.vim
+source $HOME/.config/nvim/true-zen.vim
 
 source $HOME/.config/nvim/lsp-config.vim
 source $HOME/.config/nvim/lspsaga.vim
