@@ -8,9 +8,9 @@ lua << EOF
 
 require('telescope').setup{
   defaults = {
-    sorting_strategy = 'ascending',
     layout_config = {
-      prompt_position = 'top',
+     preview_width = 0.7,
+      width = 0.95,
       horizontal = {
         mirror = false,
       },
